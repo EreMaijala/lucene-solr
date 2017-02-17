@@ -278,11 +278,11 @@ public class QueryBuilder {
         } else {
           hasSynonyms = true;
         }
-
+        /*
         int positionLength = posLenAtt.getPositionLength();
         if (!isGraph && positionLength > 1) {
           isGraph = true;
-        }
+        }*/
       }
       
       // phase 2: based on token count, presence of synonyms, and options
